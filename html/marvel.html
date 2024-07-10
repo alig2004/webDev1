@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Comics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/mystyle.css">
+</head>
+<body>
+    <header>
+        <div class="opacity-75">
+            <h1 class="header_text">Comic Stuff</h1>
+            <p class="header_text">A platform to learn about and review comics</p>
+        </div>
+    </header>
+    <nav class="navbar">
+        <a href="marvel.html">Marvel Comics</a>
+        <a href="dc.html">DC Comics</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+            <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+        </svg>
+        <a href="../index.html">Home</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+            <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+        </svg>
+        <a href="history.html">Comic History</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+    <section>
+        <h3>The Founding of Marvel Comics</h3>
+        <p>Marvel Comics was first established as Timely Publications in 1939 by Martin Goodman, who had previously published western pulp-magazines. The first comic published was Marvel Comics #1, with a cover date of October, 1939, and the first appearance of now well-known characters, the Human Torch and Namor the Sub-Mariner.</p>
+        <div>
+            <img src="../images/Martin_Goodman.jpg" alt="A black and white image of Martin Goodman" width="240" height="180">
+        </div>
+        <br>
+        <caption>Martin Goodman</caption>
+    </section>
+    <hr>
+    <div>
+        <section>
+            <h3>What characters do they own?</h3>
+            <p class="list_name">Marvel are best known for:</p>
+            <ul>
+                <li><a class="link-underline-danger" href="https://en.wikipedia.org/wiki/Spider_Man">Spider-Man</a></li>
+                <li><a class="link-underline-danger" href="https://en.wikipedia.org/wiki/Iron_Man">Iron Man</a></li>
+                <li><a class="link-underline-danger" href="https://en.wikipedia.org/wiki/Justice_League">The Avengers</a></li>
+            </ul>
+        </section>
+        <section>
+            <p class="list_name">My personal favourite Marvel characters are:</p>
+            <ul id="comic-list">
+            </ul>
+        </section>
+    </div>
+    <hr>
+    <section>
+        <h5>What is your favourite Marvel comic?</h5>
+        <input type="text" id="marvel">
+        <button onclick="messageOutputMar()">Enter</button>
+        <h5 id="marvelComic"></h5>
+    </section>
+    <footer>
+        <p>©2023 Created by Alison Gleeson</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../script/script.js"></script>
+</body>
+</html>

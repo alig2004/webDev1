@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    background-color: rgb(181, 214, 178);
+    font-family: 'Inconsolata', monospace;
+}
+header {
+    background-image: url('../images/header-website.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 0;
+}
+.header_text {
+    background-color: black;
+}
+.navbar {
+    background-color: rgb(88, 114, 145);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.navbar a {
+    color: rgba(240, 162, 2);
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+table {
+    align-content: center;
+}
+img {
+    transition: transform 0.3s ease-in-out;
+}
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 5px #000000;
+}
+.mb-3 {
+    background-color: rgb(147, 227, 236);
+    
+}
+.form-control {
+    background-color: rgb(121, 224, 235);
+}
+iframe {
+    margin-inline: 100px;
+}
+.list_name {
+    text-decoration: underline;
+}
+ul {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: square;
+}
+footer {
+    text-decoration: underline;
+    color: rgb(240, 162, 2);
+    background-color: rgb(88, 114, 145);
+    text-align: center;
+    padding: 10px;
+}
+#message{
+    padding: 15px;
+}
+button{
+    font-size: 15px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(17, 17, 226);
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    color: white;
+}
+button:hover{
+    background-color: lightpink;
+    color: black;
+    transition: 0.75s;
+}
+h3 {
+    text-decoration: underline;
+}
+form {
+    background-color: rgb(88, 114, 145);
+    border-radius: 10%;
+    margin-bottom: 5%;
+    padding: 2.5%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
